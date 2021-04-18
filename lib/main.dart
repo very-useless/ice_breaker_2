@@ -17,18 +17,18 @@ class MyApp extends StatelessWidget {
         bottomNavigationBar: BottomNavigationBar(
           items: [
             BottomNavigationBarItem(
-                icon: Icon(Icons.home),
-                title: Text("home"),
-                backgroundColor: Colors.blue
-            ),
-            BottomNavigationBarItem(
                 icon: Icon(Icons.search),
-                title: Text("search"),
+                title: Text("Explore"),
                 backgroundColor: Colors.blue
             ),
             BottomNavigationBarItem(
-                icon: Icon(Icons.camera),
-                title: Text("camera"),
+                icon: Icon(Icons.add),
+                title: Text("Requests"),
+                backgroundColor: Colors.blue
+            ),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.account_circle),
+                title: Text("Profile"),
                 backgroundColor: Colors.blue
             ),
 
